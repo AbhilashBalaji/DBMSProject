@@ -1,2 +1,2 @@
 # DBMSProject
-Hotel Management DBMS Project
+Restaurant Management DBMS Project
