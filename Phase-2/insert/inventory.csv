@@ -1,0 +1,91 @@
+restaurant,item code,item,quantity,Chef id number
+Empire,1852,Kellogs Cereal In A Cup,2284,79-941-4680
+Empire,660,Bread - French Baquette,3959,67-511-5607
+Empire,2036,"Soup - Knorr, Chicken Gumbo",5795,27-811-5852
+Empire,9365,Tea - Decaf Lipton,4784,86-945-1475
+Empire,111,Sprouts - China Rose,328,46-873-7596
+Empire,7864,Carbonated Water - Blackcherry,6880,84-477-8286
+Empire,1479,Pork - Shoulder,7084,82-446-6256
+Empire,5787,Energy Drink Bawls,8141,67-074-2303
+Empire,6801,Magnotta - Bel Paese White,5552,25-522-6707
+Empire,4828,Beans - Kidney White,9419,21-005-3085
+Imperial,2229,Mustard - Pommery,8304,94-821-8841
+Imperial,5474,"Pasta - Canelloni, Single Serve",5066,96-830-7433
+Imperial,2188,Puree - Guava,8577,48-985-5647
+Imperial,5711,Caviar - Salmon,6937,63-801-7759
+Imperial,1785,Flour - Whole Wheat,1981,30-680-4899
+Imperial,1741,Beef - Top Butt Aaa,3943,62-649-5914
+Imperial,6974,Pears - Bosc,8276,55-594-0873
+Imperial,3653,"Octopus - Baby, Cleaned",4976,83-057-6797
+Imperial,9712,Oil - Sunflower,1979,87-225-4579
+Imperial,6837,Wine - Fontanafredda Barolo,9819,03-137-6596
+Zaitoons,8694,Beef Tenderloin Aaa,7753,48-677-0725
+Zaitoons,4470,Coconut - Whole,5796,46-429-1598
+Zaitoons,9190,Marjoram - Fresh,2603,50-816-2338
+Zaitoons,5599,Steampan Lid,3180,40-614-5135
+Zaitoons,3131,Versatainer Nc - 8288,4934,95-820-5425
+Zaitoons,8692,Melon - Watermelon Yellow,810,21-904-9977
+Zaitoons,8260,Mackerel Whole Fresh,6694,90-358-9740
+Zaitoons,1071,Spice - Onion Powder Granulated,7621,40-263-7726
+Zaitoons,3179,"Wine - Cahors Ac 2000, Clos",457,87-236-1282
+Zaitoons,2322,"Pasta - Rotini, Colour, Dry",6379,05-149-3346
+Leon Grill,7459,Wine - Carmenere Casillero Del,555,18-142-2714
+Leon Grill,4551,Eggplant Oriental,1310,51-011-7104
+Leon Grill,5931,"Wine - White, Ej Gallo",7698,91-347-7730
+Leon Grill,7187,"Wine - White, Concha Y Toro",9251,70-366-8633
+Leon Grill,1116,Guava,4677,80-343-4914
+Leon Grill,8922,Water - Evian 355 Ml,874,18-827-4195
+Leon Grill,1136,Wine - Sogrape Mateus Rose,6714,94-900-5965
+Leon Grill,4670,Wine - Conde De Valdemar,3226,89-066-2718
+Leon Grill,2220,"Soup - Beef, Base Mix",9877,09-115-5491
+Leon Grill,1808,Coconut - Whole,878,65-293-6358
+Taco Bell,3294,Yoghurt Tubes,981,62-942-1668
+Taco Bell,1257,Lemons,9147,13-717-7766
+Taco Bell,1213,Trueblue - Blueberry,5843,48-852-7244
+Taco Bell,9288,Cookie Dough - Chocolate Chip,993,93-102-7129
+Taco Bell,1536,Lettuce - Belgian Endive,3579,58-457-9300
+Taco Bell,7391,"Juice - Grape, White",9101,38-164-1236
+Taco Bell,8127,"Rum - Light, Captain Morgan",7598,08-950-0865
+Taco Bell,7447,Mcguinness - Blue Curacao,8932,21-004-5810
+Taco Bell,8331,"Juice - Orange, 341 Ml",989,82-119-4360
+Taco Bell,9542,Wine - Magnotta - Belpaese,3975,17-387-3017
+KFC,8978,Soupcontfoam16oz 116con,1417,08-757-2866
+KFC,5589,"Pasta - Elbows, Macaroni, Dry",115,87-460-5818
+KFC,6413,Beef - Inside Round,5835,94-893-1198
+KFC,2034,Soup - Campbells Mac N Cheese,8305,30-426-1740
+KFC,5241,"Wine - White, Lindemans Bin 95",9008,72-863-6337
+KFC,6885,Nestea - Iced Tea,3536,57-970-0778
+KFC,5488,Potatoes - Yukon Gold 5 Oz,4031,02-577-3874
+KFC,6868,Flour - Semolina,7195,78-141-8470
+KFC,7111,Puff Pastry - Sheets,1788,85-814-3918
+KFC,1316,Pork Salted Bellies,3422,94-770-5788
+Burger King,5081,Oil - Peanut,8043,07-428-3646
+Burger King,4958,Muffin Mix - Blueberry,3203,85-051-5750
+Burger King,6093,Ham - Proscuitto,4442,46-361-0205
+Burger King,3967,Myers Planters Punch,1805,74-032-7270
+Burger King,1650,Tart - Butter Plain Squares,9582,65-694-5799
+Burger King,857,Nantucket - 518ml,530,07-747-9484
+Burger King,9310,Wine - Chardonnay Mondavi,6216,49-114-7799
+Burger King,6803,Coffee - Almond Amaretto,1669,72-476-9307
+Burger King,2025,Cake - Sheet Strawberry,4131,72-123-4798
+Burger King,9226,Gatorade - Fruit Punch,2949,74-493-9770
+Khan Saheb,5135,"Oranges - Navel, 72",1911,12-024-4732
+Khan Saheb,5141,Soap - Mr.clean Floor Soap,8679,77-493-9669
+Khan Saheb,6503,Banana Turning,5966,71-499-4145
+Khan Saheb,5294,Cranberries - Dry,7151,57-060-5881
+Khan Saheb,8516,Godiva White Chocolate,9643,65-120-8190
+Khan Saheb,5286,"Wine - Red, Pinot Noir, Chateau",6513,08-291-6149
+Khan Saheb,8569,Pork - Shoulder,4650,52-318-9451
+Khan Saheb,1038,Vinegar - Champagne,9416,80-727-9421
+Khan Saheb,9599,"Wine - White, Colubia Cresh",2316,57-638-4149
+Khan Saheb,2892,"Beef - Cooked, Corned",5687,35-383-5533
+CTR,8061,"Mushroom - Enoki, Fresh",433,62-544-7403
+CTR,3027,Wine - Black Tower Qr,9752,84-234-7021
+CTR,5072,Fond - Neutral,6696,06-949-1378
+CTR,8829,Wine - Chianti Classico Riserva,1310,91-968-2515
+CTR,2502,Beer - Sleemans Honey Brown,1608,05-261-3036
+CTR,8723,Capers - Pickled,3043,17-871-6659
+CTR,7990,"Wine - Red, Black Opal Shiraz",7143,89-707-4284
+CTR,833,"Cake Circle, Foil, Scallop",6837,10-715-0431
+CTR,5448,Sauce - Mint,4989,32-358-3458
+CTR,963,Table Cloth 54x72 Colour,6434,48-579-1001

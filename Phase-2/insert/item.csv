@@ -1,0 +1,91 @@
+Restaurant,item number,Description,Quantity,Price
+Empire,1,Chicken Kebab,1,264
+Empire,2,Chicken Lollypop,1,709
+Empire,3,Butter Chicken,1,985
+Empire,4,Mutton Sheek,1,806
+Empire,5,Cilon Parotha,1,159
+Empire,6,Ghee Rice,1,118
+Empire,7,Chicken Shawarma,1,891
+Empire,8,Fish Curry,1,716
+Empire,9,Fish fry,1,742
+Empire,10,Chicken Tandoor,1,166
+Imperial,11,Chicken 65,1,930
+Imperial,12,Chicken Kebab,1,534
+Imperial,13,Chicken Wings,1,975
+Imperial,14,Chicken Tandoor,1,552
+Imperial,15,Panner Fried Rice,1,414
+Imperial,16,Chicken Fried Rice,1,547
+Imperial,17,Chicken Curry Spl,1,793
+Imperial,18,French Fried,1,763
+Imperial,19,Guntoor Chicken,1,600
+Imperial,20,Lemon Chicken,1,720
+Zaitoons,21,Chicken Kebab,1,252
+Zaitoons,22,Gobi,1,726
+Zaitoons,23,Panner Manchury,1,163
+Zaitoons,24,Chicken Salad,1,599
+Zaitoons,25,Chicken Kalmi,1,464
+Zaitoons,26,Tandoori half,1,610
+Zaitoons,27,Chicken Fried Rice,1,150
+Zaitoons,28,Fish kebab,1,921
+Zaitoons,29,Ginger Chicken,1,353
+Zaitoons,30,Mutton curry,1,368
+Leon Grill,31,Fries,1,362
+Leon Grill,32,Jumbo Chicken Burger,1,423
+Leon Grill,33,Peri Peri Wings,1,121
+Leon Grill,34,Tandoori full,1,996
+Leon Grill,35,Chicken Fresh Salad,1,205
+Leon Grill,36,Chicken Royale Burger,1,227
+Leon Grill,37,Chicken Wrap,1,746
+Leon Grill,38,Coke,1,775
+Leon Grill,39,Chocolate Shake,1,705
+Leon Grill,40,Mojito,1,265
+Taco Bell,41,Black Bean Burrito,1,945
+Taco Bell,42,Nacho Fries,1,380
+Taco Bell,43,Power Menu Burrito,1,741
+Taco Bell,44,Cheesy Roll-Up,1,154
+Taco Bell,45,Sausage Flatbread,1,180
+Taco Bell,46,Caramel Apple Empanada,1,489
+Taco Bell,47,Hash Browns,1,777
+Taco Bell,48,Mexican Taco,1,905
+Taco Bell,49,Crunchy Chicken Taco,1,592
+Taco Bell,50,Veg Taco,1,137
+KFC,51,Popcorn Rice Combo,1,415
+KFC,52,Smoky Rice Bowl & Pepsi,1,621
+KFC,53,Chicken Rice Bowl,1,306
+KFC,54,Smoky Grilled 6+3,1,877
+KFC,55,Big 8,1,431
+KFC,56,Triple Treat,1,372
+KFC,57,8 Pc Hot & Crispy,1,634
+KFC,58,6 Pc Hot & Crispy,1,486
+KFC,59,Chick & Share Bucket with 3 Pepsi,1,185
+KFC,60,Mingles Bucket,1,542
+Burger King,61,Big King XL,1,961
+Burger King,62,Double Quarter Pound KING,1,473
+Burger King,63,Veg Surprise,1,794
+Burger King,64,Crispy Veg Supreme,1,899
+Burger King,65,Veg WHOPPER,1,630
+Burger King,66,Veg Chilli Cheese,1,177
+Burger King,67,Crispy Veg,1,578
+Burger King,68,Fiery Rings,1,679
+Burger King,69,Veggie Strips,1,582
+Burger King,70,Chicken Burger Special,1,567
+Khan Saheb,71,Tikka Roll,1,115
+Khan Saheb,72,Kali Mirchi Roll,1,627
+Khan Saheb,73,Egg roll,1,893
+Khan Saheb,74,Chicken Biryani,1,456
+Khan Saheb,75,Kalmi Kebab,1,619
+Khan Saheb,76,Reshmi tikka roll,1,567
+Khan Saheb,77,Double egg roll,1,788
+Khan Saheb,78,Panner Roll,1,413
+Khan Saheb,79,Potato Roll,1,965
+Khan Saheb,80,Mushroom Starter,1,443
+CTR,81,Idli,1,960
+CTR,82,Set Dose,1,758
+CTR,83,Masala Dose,1,413
+CTR,84,Plane Dose,1,291
+CTR,85,Vade,1,724
+CTR,86,Bonda,1,641
+CTR,87,Kesari bath,1,232
+CTR,88,Veg Pulao,1,965
+CTR,89,Rava Idli,1,867
+CTR,90,Benne Masala Dose,1,693
