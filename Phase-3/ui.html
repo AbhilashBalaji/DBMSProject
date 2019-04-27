@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Restaurant Management System</title>
+
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style type="text/css">
+
+	.topnav {
+		background-color: black;
+		overflow: hidden;
+		background: rgba(0, 0, 0, 0.30);
+		position: fixed;
+		z-index: 100000;
+
+	}
+	.topnav-right a {
+		float: left;
+		color: white;
+		padding: 28px 28px;
+		text-decoration: none;
+		font-size: 14px;
+		font-weight: 700;
+		opacity: 1;
+		font-family: Circular, Helvetica, Arial, sans-serif;
+		padding-right: 28px;
+	}
+	.topnav-left a {
+		float: left;
+		color: white;
+		padding: 20px 20px;
+		text-decoration: none;
+		font-size: 27px;
+		opacity: 1;
+		font-family: Circular, Helvetica, Arial, sans-serif;
+		padding-left: 65px;
+
+	}
+	.topnav-right a:hover {
+		color: #c6b089;
+		
+	}
+	body { 
+		padding: 0;
+		margin: 0; 
+		
+	} 
+
+	.sticky {
+		position: fixed;
+		top: 0;
+		width: 100%;
+	}
+
+	.topnav-right {
+		float: right;
+	}
+
+	.text{
+		color: white;
+	}
+
+	.menu{
+		background-image: url("https://codex-themes.com/thegem/wp-content/uploads/2016/06/24.png");
+		height: 86vh;
+	}
+	.main{	
+		/*margin-top: -10%;*/
+		background-image: url("https://codex-themes.com/thegem/wp-content/uploads/2016/06/restaurant_testimonial.jpg");
+		height: 100vh;
+		width: 100%;
+		/*background-repeat: no-repeat;	*/
+
+	}
+
+	.bg{
+		/*padding-top: 7%;*/
+		background-image: url(https://codex-themes.com/thegem/wp-content/uploads/2016/06/restaurant_blackwood_bg.jpg);
+		height: 100vh;
+	}
+	.first{
+		text-align: center;
+		width: 100%;
+		display: inline-block;
+	}
+	.h{
+		position: relative;
+		text-align: center;
+		margin-top: 15%;
+		margin-left: 7%;
+		float: left;
+		color: #c6b089;
+		font-weight: 200;
+		font-family: sans-serif;
+		text-transform: uppercase;
+		letter-spacing: .05em;
+		-webkit-tap-highlight-color: transparent;
+		line-height: 100px;
+		font-size:60px;
+	}
+	.img{
+
+	}
+	.h51{
+		color: #c6b089;
+		font-weight: 200;
+		font-family: sans-serif;
+		text-transform: uppercase;
+		letter-spacing: .05em;
+		-webkit-tap-highlight-color: transparent;
+		line-height: 50px;
+		font-size:20px;
+		padding-top: 40px;
+		/*padding-left: 100px;*/
+	}
+
+	.bg2{
+		background-image: url(https://codex-themes.com/thegem/wp-content/uploads/2016/06/restaurant_post_bg.jpg);
+		height: 100vh;
+	}
+	.bg3{
+		background-image: url(https://codex-themes.com/thegem/wp-content/uploads/2016/06/restaurant_post_bg.jpg);
+		height: 40vh;
+	}
+
+	.bill_img{
+		padding-top: 100px;
+		padding-left: 200px;
+	}
+
+	.re_h{
+		font-size: 35px;
+		padding-top: 50px;
+		line-height: 70px;
+		padding-left: 60px;
+	}
+
+	.bttn1{
+		color: black;
+		letter-spacing: .07em;
+		width: 25%;
+		text-align: center;
+		background-color: transparent;
+		border-color: #c6b089;
+		padding: 10px 10px 10px;
+		border-width: 2px;
+		margin-top: 7%;
+		border-radius: 10px;
+	}
+	.menu_head{
+		color: #c6b089;
+		font-weight: 200;
+		font-family: sans-serif;
+		text-transform: uppercase;
+		letter-spacing: .05em;
+		-webkit-tap-highlight-color: transparent;
+		line-height: 50px;
+		margin-top: 10%;
+	}
+
+	.menu_search{
+		color: #ffffff;
+		font-weight: 200;
+		font-family: sans-serif;
+		text-transform: uppercase;
+		letter-spacing: .10em;
+		-webkit-tap-highlight-color: transparent;
+		line-height: 40px;
+		margin-top: 10%;
+	}
+
+	.re_h5{
+		color: black;
+		padding-left: 100px;
+	}
+
+	.menu_button{
+		color: #ffffff;
+		letter-spacing: .07em;
+		margin-top: 10%;
+		width: 25%;
+		text-align: center;
+		background-color: transparent;
+		border-color: #c6b089;
+		padding: 10px 10px 10px;
+		border-width: 2px;
+		border-radius: 10px;
+		/*transition: all .6s ease-out;*/
+	}
+
+	.menu_a a:hover{
+		background-color: #c6b089;
+		-webkit-transition-timing-function: ease-in;
+		/*background-position: left bottom;*/
+	}
+
+	.bill_hov button:hover{
+		background-color: black;
+		color: #c6b089;
+		border-color: black;
+
+	}
+
+	.bttn button:hover{
+		background-color: white;
+		border-color: white;
+		color: #c6b089;
+	}
+
+	.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 80px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  border:1px solid #c6b089;
+}
+
+.fa:hover {
+    opacity: 0.7;
+    color: white;
+}
+
+.fa-facebook {
+  background: transparent;
+  text-shadow: -1px 0 #c6b089, 0 1px #c6b089, 2px 0 #c6b089, 0 -1px #c6b089;
+  color: white;
+}
+
+.fa-twitter {
+  background: transparent;
+   text-shadow: -1px 0 #c6b089, 0 1px #c6b089, 2px 0 #c6b089, 0 -1px #c6b089;
+  color: white;
+}
+
+.fa-instagram {
+  background: transparent;
+   text-shadow: -1px 0 #c6b089, 0 1px #c6b089, 2px 0 #c6b089, 0 -1px #c6b089;
+  color: white;
+}
+
+.soc{
+	padding-top: 10%;
+}
+
+</style>
+
+
+</head>
+<body class="">
+	<div class="main">
+		<div class="topnav sticky">
+			<div class="topnav-left">
+				<a href=""><img class="logo-img" src="/Users/munna/Desktop/food.jpg" width="40" height="40" ALT="align box" ALIGN=CENTER><strong> Restaurant</strong></a> 
+			</div>
+			<div class="topnav-right">
+				<a class="text" href="#bill">Bill</a>
+				<a class="text" href="#menu">Menu</a>
+				<a class="text" href="">|</a>
+				<a class="text" href="#restaurant">Add Restaurant</a>
+				<a class="text" href="#info">Information</a>
+
+			</div>
+		</div> 
+		
+		<div class="first" align="CENTER" style="margin-left: 15%;">
+			<h1 class="h">Welcome,<div ></div> Choose what you want to do!</h1>
+		</div>
+		<div align="CENTER">
+			<img class="img"src="https://codex-themes.com/thegem/wp-content/uploads/2016/06/restaurant_white_venzel.png">
+			<div>
+				<div align="CENTER">
+					<h5 class="h51">Browse through the options avaliable right from adding a new</br> restaurant to getting information you seek on customers etc.</h5>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+<div class="bg2" id="bill">
+	<div class="row">
+  		<div class="col-sm-3">
+  			<h1 class="h re_h">Manage your Bills</h1>
+  			<div align="CENTER">
+  				<img style="padding-top: 40px;" src="https://codex-themes.com/thegem/wp-content/uploads/2016/06/restaurant_golden_venzel.png">
+  			</div>
+  			<h5 class="menu_search re_h5">Create a new bill or seek information on existing ones</h5>
+  			<a href="/Users/munna/Desktop/bill.html"><div align="CENTER" class="bill_hov"><button type="button" class="btn bttn1">Click here!</button></div></a>
+  		</div>
+  		<div class="col-sm-8 bill_img">
+  			<img src="/Users/munna/Desktop/bill.png">
+  		</div>
+</div>
+	
+	
+</div>
+
+<div class="row bg" id="menu">
+	<div class="col-7 menu"></div>
+	<div class="col-5 menu_a">
+		<h1 class="menu_head">Look at the Menu's of exisiting Restaurants</h1>
+		<!-- <div align="CENTER">
+			<img style="padding-top: 30px;" src="https://codex-themes.com/thegem/wp-content/uploads/2016/06/restaurant_golden_venzel.png">
+		</div> -->
+		<h5 class="menu_search">Search for dishes from our restaurants or add new dishes to the restaurants</h5>
+		<a href="/Users/munna/Desktop/menu.html"><div class="bttn"><button type="button" class="btn menu_button">Go!</button></div></a>
+	</div>
+</div>
+
+
+<div class="bg2" id="info">
+	<div class="row">
+		<div class="col-sm-3">
+  			<h1 class="h re_h">Get Information! </br></h1>
+  			<div align="CENTER">
+  				<img style="padding-top: 40px;" src="https://codex-themes.com/thegem/wp-content/uploads/2016/06/restaurant_golden_venzel.png">
+  			</div>
+  			<h5 class="menu_search re_h5">Get statistical information based on our stored info in the form of graphs etc.</h5>
+  			<a href="/Users/munna/Desktop/stat.html"><div align="CENTER" class="bill_hov"><button type="button" class="btn bttn1">Click here!</button></div></a>
+  		</div>
+  		<div class="col-sm-8 	bill_img">
+  			<img width="500px" height="350px" style="; padding-top: 20%;
+  			padding-right: 10%; " src="/Users/munna/Downloads/stat3.png">
+  		</div>
+	</div>
+</div>
+
+<div class="row bg" id="restaurant">
+	<div class="col-7" align="CENTER">
+		<img width="500px" height="360px" style="margin-top: 10%;" src="/Users/munna/Downloads/chef1.png">
+	</div>
+	<div class="col-5 menu_a">
+		<h1 class="menu_head">Add new Restaurant!</h1>
+		<!-- <div align="CENTER">
+			<img style="padding-top: 30px;" src="https://codex-themes.com/thegem/wp-content/uploads/2016/06/restaurant_golden_venzel.png">
+		</div> -->
+		<div align="CENTER" style="margin-top: 10%;"><img width="60px" class="img"src="https://codex-themes.com/thegem/wp-content/uploads/2016/06/restaurant_white_venzel.png"></div>
+		<h5 class="menu_search">Add a new Restaurant to our database, Enter details </br> and get started to expand your range!</h5>
+		<a href="/Users/munna/Desktop/resta.html"><div class="bttn"><button type="button" class="btn menu_button">Go!</button></div></a>
+	</div>
+</div>
+
+<div class="bg3">
+	<div align="CENTER" class="soc">
+		<!-- <p style="color: black; font-family: Circular, Helvetica, Arial, sans-serif;" >Our Social Media</p> -->
+		<a href="#" class="fa fa-facebook" style=""></a><a style="margin-right: 5%;"></a>
+		<a href="#" class="fa fa-twitter"></a> <a style="margin-right: 5%;"> </a>
+		<a href="#" class="fa fa-instagram"></a>
+		<h1 style="margin-top: 10%;"></h1>
+	</div>
+</div>
+
+</div>
+</body>
+</html>
